@@ -14,15 +14,15 @@
 
 	describe('The FSLoader', function(){
 		it('should load all files', function(done){
-			var   counter = 0
-				, results = ['/index.html', '/css/main.css'];
+			var   counter = 0;
 
 			loader = new FSLoader({
 				path: __dirname + '/www'
 			});
 
 			loader.once('addHash', function(path, file){
-				assert.equal(path, results[counter++]);
+				assert.equal(path, '/');
+				counter++;
 			});
 
 			loader.on('load', function(err){
@@ -55,6 +55,11 @@
 			});
 
 			fs.unlink(__dirname + '/www/robots.txt');
+		});
+
+
+		it('should return even directories', function(){
+			assert.equal(loader.getFile('/').isDirectory, true);
 		});
 	});
 	
