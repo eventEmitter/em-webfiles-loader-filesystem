@@ -1,7 +1,7 @@
 {
       "name"                        : "em-webfiles-loader-filesystem"
     , "description"                 : "FileSystem loder for em-webfiles"
-    , "version"                     : "0.1.3"
+    , "version"                     : "0.1.4"
     , "homepage"                    : "https://github.com/eventEmitter/em-webfiles-loader-filesystem"
     , "author"                      : "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)" 
     , "licence"                     : "mit"
