@@ -1,25 +1,25 @@
 {
       "name"                        : "em-webfiles-loader-filesystem"
     , "description"                 : "FileSystem loder for em-webfiles"
-    , "version"                     : "0.1.10"
+    , "version"                     : "0.1.11"
     , "homepage"                    : "https://github.com/eventEmitter/em-webfiles-loader-filesystem"
-    , "author"                      : "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)" 
-    , "licence"                     : "mit"
+    , "author"                      : "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)"
+    , "license"                     : "MIT"
     , "repository": {
           "url"                     : "https://github.com/eventEmitter/em-webfiles-loader-filesystem.git"
         , "type"                    : "git"
     }
     , "engines": {
-        "node"                      : ">=v0.10.17"
+        "node"                      : ">=v4"
     }
     , "bugs": {
         "url"                       : "https://github.com/eventEmitter/em-webfiles-loader-filesystem/issues"
     }
     , "dependencies": {
-          "ee-class"                : "1.0.x"
-        , "ee-event-emitter"        : "0.1.x"
-        , "ee-types"                : "0.1.x"
-        , "ee-log"                  : "0.2.x"
+          "ee-class"                : "1.x"
+        , "ee-types"                : "2.x"
+        , "ee-event-emitter"        : "0.3.x"
+        , "ee-log"                  : "0.3.x"
         , "ee-async"                : "0.2.x"
         , "ee-argv"                 : "0.1.x"
         , "em-webfiles-loader"      : "0.1.x"
@@ -28,7 +28,7 @@
         , "mime"                    : "1.2.x"
     }
     , "devDependencies": {
-          "mocha"                   : "1.17.x"
+          "mocha"                   : "2.x"
     }
     , "optionalDependencies": {}
     , "keywords"                    : ["ee", "wwfiles", "filesystem", "loader"]
