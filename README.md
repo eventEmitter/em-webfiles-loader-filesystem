@@ -1,5 +1,7 @@
 # em-webfiles-loader-filesystem
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/eventEmitter/em-webfiles-loader-filesystem.svg)](https://greenkeeper.io/)
+
 FileSystem loder for em-webfiles
 
 ## installation
